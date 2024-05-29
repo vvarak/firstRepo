@@ -1,0 +1,366 @@
+{ 
+	"list1": {
+		"sap.app": {
+			"id": "sample.CardsLayout.model.list2",
+			"type": "card"
+		},
+		"sap.card": {
+			"type": "List",
+			"header": {
+				"title": "ATL",
+				"subTitle": "ATL Marketing Activities",
+				"icon": {
+					"src": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/CompanyLogo.png"
+				}
+			},
+			"content": {
+				"data": {
+					"json": [
+						{
+							"name": "radio",
+							"description": "radio",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "ad film creation",
+							"description": "ad film creation",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "tv (ad film/cable / tv-scroll branding / l- shape branding)",
+							"description": "tv (ad film/cable / tv-scroll branding / l- shape branding)",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "newspaper/magazine/ inserts/advertisement",
+							"description": "newspaper/magazine/ inserts/advertisement",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "shop shutter painting/branding",
+							"description": "shop shutter painting/branding",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "wall painting",
+							"description": "wall painting",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "train branding",
+							"description": "train branding",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "bus q- shelter branding",
+							"description": "bus q- shelter branding",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "bus / auto branding",
+							"description": "bus / auto branding",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "water tank branding",
+							"description": "water tank branding",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "display standees/ concept selling standees",
+							"description": "display standees/ concept selling standees",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "welcome city campaign - airport branding/ railway station/ highway",
+							"description": "welcome city campaign - airport branding/ railway station/ highway",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						}
+					]							
+				},
+				"item": {
+					"icon": {
+						"src": "{icon}"
+					},
+					"title": {
+						"value": "{name}"
+					},
+					"description": {
+						"value": "{description}"
+					},
+					"actions": [
+						{
+							"type": "Navigation",
+							"parameters": {
+								"url": "/users/{name}"
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	"list2": {
+		"sap.app": {
+			"id": "sample.CardsLayout.model.list2",
+			"type": "card"
+		},
+		"sap.card": {
+			"type": "List",
+			"header": {
+				"title": "BTL",
+				"subTitle": "BTL Marketing Activities",
+				"icon": {
+					"src": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/CompanyLogo.png"
+				}
+			},
+			"content": {
+				"data": {
+					"json": [
+						{
+							"name": "banners",
+							"description": "banners",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "sponsorship programs",
+							"description": "sponsorship programs",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "festival/temple festival",
+							"description": "festival/temple festival",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "exhibitions/industrial fair",
+							"description": "exhibitions/industrial fair",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "dealers syndicate meet/ dealer workshop",
+							"description": "dealers syndicate meet/ dealer workshop",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "annual dealer/ contractor/ engineer  meet",
+							"description": "annual dealer/ contractor/ engineer  meet",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "plant visit for dealers",
+							"description": "plant visit for dealers",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "sub dealer meet",
+							"description": "sub dealer meet",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "dealer aso/bm foreign trip",
+							"description": "dealer aso/bm foreign trip",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "fabricator meets / training program",
+							"description": "fabricator meets / training program",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "annual fabricator meet",
+							"description": "annual fabricator meet",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "fabricator insuarance",
+							"description": "fabricator insuarance",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "fabricator award scheme",
+							"description": "fabricator award scheme",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "engineering contractor meet",
+							"description": "engineering contractor meet",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "channel sales force meets / training program",
+							"description": "channel sales force meets / training program",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "dealer staff loyalty program",
+							"description": "dealer staff loyalty program",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "samples for display",
+							"description": "samples for display",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "display stand",
+							"description": "display stand",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "model house",
+							"description": "model house",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "glow signs & flex dealer shop boards",
+							"description": "glow signs & flex dealer shop boards",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "hoardings",
+							"description": "hoardings",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "vehicle branding/mobile campaign / road show",
+							"description": "vehicle branding/mobile campaign / road show",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "consumer scheme at selective counters to promote sales",
+							"description": "consumer scheme at selective counters to promote sales",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "consumer/ panchayet meet",
+							"description": "consumer/ panchayet meet",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "rcp frames/certificates/leaflets",
+							"description": "rcp frames/certificates/leaflets",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						}
+					]					
+				},
+				"item": {
+					"icon": {
+						"src": "{icon}"
+					},
+					"title": {
+						"value": "{name}"
+					},
+					"description": {
+						"value": "{description}"
+					},
+					"actions": [
+						{
+							"type": "Navigation",
+							"parameters": {
+								"url": "/users/{name}"
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	"list3": {
+		"sap.app": {
+			"id": "sample.CardsLayout.model.list2",
+			"type": "card"
+		},
+		"sap.card": {
+			"type": "List",
+			"header": {
+				"title": "TTL",
+				"subTitle": "TTL Marketing Activities",
+				"icon": {
+					"src": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/CompanyLogo.png"
+				}
+			},
+			"content": {
+				"data": {
+					"json": [
+						{
+							"name": "email marketing",
+							"description": "email marketing",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "just dial/tele marketing",
+							"description": "just dial/tele marketing",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "scheme posters/scratch card/bill books/,banners",
+							"description": "scheme posters/scratch card/bill books/,banners",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "exclusive showroom",
+							"description": "exclusive showroom",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "brochures/posters",
+							"description": "brochures/posters",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "flyers / danglers",
+							"description": "flyers / danglers",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "c- sat survey & brand awareness",
+							"description": "c- sat survey & brand awareness",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "consumer gift items:durashine t shirts,umbrellas,windsheids,raincoats etc.",
+							"description": "consumer gift items:durashine t shirts,umbrellas,windsheids,raincoats etc.",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "gifts & give aways",
+							"description": "gifts & give aways",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "tool kit for fabricator",
+							"description": "tool kit for fabricator",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						},
+						{
+							"name": "miscellaneous",
+							"description": "miscellaneous",
+							"icon": "./test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Avatar_3.png"
+						}
+					]
+								
+				},
+				"item": {
+					"icon": {
+						"src": "{icon}"
+					},
+					"title": {
+						"value": "{name}"
+					},
+					"description": {
+						"value": "{description}"
+					},
+					"actions": [
+						{
+							"type": "Navigation",
+							"parameters": {
+								"url": "/users/{name}"
+							}
+						}
+					]
+				}
+			}
+		}
+	}
+}
